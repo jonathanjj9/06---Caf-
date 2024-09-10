@@ -18,3 +18,17 @@ trocar um por um*/
     text-transform: capitalize;
     transition: 0.2 linear;
 }
+
+body{
+    background-color: var(--bg);
+
+}
+
+.header{
+    position: fixed; /* para quando rolar a pagina para baixo ou para cima o header continuar fixado. */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99; /* para que a o header fique a frente de pagina quando rolar a pagina */
+    border-bottom: var(--border);
+}
