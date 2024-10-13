@@ -152,7 +152,7 @@ section {
     line-height: 1.8;
 }
 
-.menu .box-container {
+.box-container {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -195,4 +195,25 @@ section {
 
 .menu .box-container .box:hover>*{
     color: var(--bg);
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer .share{
+    padding: 1rem 0;
+}
+
+.footer .share img{
+    margin: 0.3rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 1rem;
 }
